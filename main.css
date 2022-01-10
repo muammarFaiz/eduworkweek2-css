@@ -1,0 +1,171 @@
+
+/* TODO:
+- center the table
+-  dont make you looks like a tryhard */
+
+body {
+  background-image: url("mainbackground.jpg");
+  padding: 3rem 3rem 0rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+header {
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  padding: 3rem;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  font-family: arial;
+  font-size: 1rem;
+  box-shadow: 14px -14px 9px black;
+}
+
+footer {
+  background-color: blue;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 14px 0px 5px black;
+}
+
+h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 5px 5px 3px white;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+}
+
+form {
+  text-align: center;
+}
+hr {
+  border: 2px;
+  border-style: solid none none;
+  margin: 10% auto 6%;
+  width: 52%;
+  color: blueviolet;
+}
+
+table {
+  /* display: block; */
+}
+
+tr {
+  width: 100%;
+}
+
+/* ==================== link ==================== */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+/* =============================== class ============================ */
+.maintitle {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 5rem;
+  text-shadow: 6px 6px 3px white;
+}
+
+.boxcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.boxcontainer>* {
+  display: inline-block;
+  position: relative;
+  padding: 10%;
+  text-align: center;
+}
+
+.boxtitle {
+  font-weight: bold;
+  margin-bottom: 20%;
+}
+
+@media only screen and (max-width: 900px){
+  .boxcontainer {
+    grid-template-columns: 1fr;
+  }
+  .boxcontainer>* {
+  padding: 5px;
+  }
+  .boxtitle {
+    margin-bottom: 8%;
+  }
+}
+
+.maintable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputemail {
+  border-radius: 9px;
+  margin: 1rem auto;
+}
+
+.inputmsg {
+  border-radius: 13px;
+  margin: 1rem auto;
+}
+
+.inputbtn {
+  border-radius: 8px;
+  width: 12rem;
+  background-color: black;
+  color: white;
+}
+
+/* ========================== boxplay ================================ */
+
+.containerbox {
+  height: 1000px;
+  display: grid;
+  place-items: center;
+}
+
+.mainbox {
+  height: 200px;
+  width: 200px;
+  position: fixed;
+  top: 200px;
+  border-top-left-radius: 20px;
+  background-color: green;
+  box-shadow: 6px 6px 5px 0px black;
+  transition: 0.5s;
+}
+
+.mainbox:hover {
+  width: 220px;
+  height: 220px;
+  background-color: red;
+  transform: rotate(50deg);
+}

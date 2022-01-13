@@ -1,108 +1,63 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <title>Biografi Saya</title>
-  <link rel="stylesheet" href="main.css">
-  <!-- ==================== google font ==================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <!-- main css -->
+  <link rel="stylesheet" href="main.css">
+  <title>Biografi</title>
 </head>
 
-<body>
-  <header>
-    <h1 class="maintitle">Muammar Faiz</h1>
-    <h2>Pelajar</h2>
-  </header>
-  <!-- ====================== main content ============================= -->
-  <main>
-    <h3>Biografi</h3>
-    <p>Halo, perkenalkan nama saya Muammar Faiz, saat ini saya belajar di Eduwork, keseharian saya adalah belajar.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed labore illum perspiciatis laboriosam aperiam provident qui quisquam necessitatibus nobis.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, excepturi</p>
-      <hr>
-    <div class="boxcontainer">
-      <div class="box1">
-        <div class="boxtitle">Box one</div>
-        <div class="boxcontent">
-          Ayam goreng is an Indonesian and Malaysian dish consisting of chicken deep fried in oil.
-          Ayam goreng literally means "fried chicken" in Malay (including both Indonesian and Malaysian standards) and also in many Indonesian regional languages (e.g. Javanese).
-        </div>
-      </div>
-      <div class="box2">
-        <div class="boxtitle">Box two</div>
-        <div class="boxcontent">
-          Sate kambing is the Indonesian name for "mutton satay". It is part of the cuisine of Indonesia.[1] This
-          food is made by grilling goat meat that has been mixed with seasoning. The dish is also called lamb satay and goat satay.
-        </div>
-      </div>
-      <div class="box3">
-        <div class="boxtitle">Box three</div>
-        <div class="boxcontent">
-          Ginger tea is aherbal beverage that is made from ginger root. It has
-          a long history as a traditional herbal medicine in East Asia, South Asia, Southeast Asia and West Asia.
-        </div>
+<body id="bodyfaiz">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Biografi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-primary" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-primary">Grid</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary" href="#">Footer</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <hr>
-    <!-- ============================ skills ============================ -->
-    <h3>Skills</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Python</li>
-    </ul>
-    <ol>
-      <li>Akuntansi</li>
-      <li>Perpajakan</li>
-    </ol>
-    <hr>
-    <!-- ============================= table ========================== -->
-    <h3>My Close Friends</h3>
-    <table border="1" cellspacing="0" cellpadding="10" class="maintable">
-      <thead>
-        <tr>
-          <td>No</td>
-          <td>Name</td>
-          <td>Address</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>Andri</td>
-          <td>Depok</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>Ammar</td>
-          <td>Cibinong</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Pipah</td>
-          <td>Cibinong</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <!-- ========================== form ========================== -->
-    <h3>Contact Me</h3>
-    <form class="" action="index.html" method="post">
-      <label for="email">email</label><br>
-      <input class="inputemail" type="email" name="email" value="" size="40"><br>
-      <label for="message">Message</label><br>
-      <textarea class="inputmsg" name="message" rows="8" cols="30"></textarea><br>
-      <input class="inputbtn" type="submit" name="" value="Submit" size="20">
-    </form>
-  </main>
+  </nav>
+  <div class="container">
+    <header>
+      <h1 class="fw-bold text-black text-center mt-5">MUAMMAR FAIZ</h1>
+      <p class="fs-2 fw-bold text-black text-center">PELAJAR</p>
+    </header>
+    <main>
 
-  <footer>
-    <a href="https://www.freepik.com/vectors/background">Background vector created by vector_corp - www.freepik.com</a>
-  </footer>
+    </main>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
 
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
 </body>
 
 </html>

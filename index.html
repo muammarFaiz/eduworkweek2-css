@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-
+<!-- TODO: styling -->
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -18,7 +18,7 @@
 </head>
 
 <body id="bodyfaiz">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Biografi</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,25 +30,25 @@
             <a class="nav-link text-primary" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-primary">Grid</a>
+            <a href="#thegrid" class="nav-link text-primary">Grid</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-primary" href="#">Footer</a>
+            <a class="nav-link text-primary" href="#thefooter">Footer</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <div class="container">
-    <header>
-      <h1 class="fw-bold text-black text-center mt-5">MUAMMAR FAIZ</h1>
-      <p class="fs-1 fw-bold text-black text-center">PELAJAR</p>
+  <div class="container text-center">
+    <header class="mb-5">
+      <h1 class="fw-bold text-black mt-5">MUAMMAR FAIZ</h1>
+      <p class="fs-1 fw-bold text-black">PELAJAR</p>
     </header>
-    <main class="container bg-white">
+    <main class="container bg-white p-5">
       <h2>Biografi</h2>
       <p>Halo, perkenalkan nama saya Muammar Faiz, saat ini saya belajar di Eduwork, keseharian saya adalah belajar. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora sed labore illum perspiciatis laboriosam aperiam provident qui
         quisquam necessitatibus nobis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, excepturi</p>
-      <hr>
+      <hr id="thegrid">
       <div class="row">
         <div class="col-md-4">
           <h3>Box one</h3>
@@ -66,12 +66,12 @@
       </div>
       <hr>
       <h2>Skills</h2>
-      <ol class="list-group list-group-flush">
+      <ol class="list-group list-group-flush text-start">
         <li class="list-group-item">HTML</li>
         <li class="list-group-item">CSS</li>
         <li class="list-group-item">Python</li>
       </ol>
-      <ol class="list-group list-group-numbered">
+      <ol class="list-group list-group-numbered text-start">
         <li class="list-group-item">Akuntansi</li>
         <li class="list-group-item">Perpajakan</li>
       </ol>
@@ -105,20 +105,22 @@
       </table>
       <hr>
       <h2>Contact Me</h2>
-      <form>
+      <form class="text-start mx-auto">
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <label for="exampleInputEmail1" class="form-label">Email</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <label for="exampleInputPassword1" class="form-label">Message</label>
           <textarea type="password" class="form-control" id="exampleInputPassword1" rows="3" cols="80"></textarea>
         </div>
+        <div class="row">
         <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
       </form>
     </main>
-    <footer>
-      <a href="https://www.freepik.com/vectors/background">Background vector created by vector_corp - www.freepik.com</a>
+    <footer class="bg-black p-3" id="thefooter">
+      <a class="text-decoration-none" href="https://www.freepik.com/vectors/background">Background vector created by vector_corp - www.freepik.com</a>
     </footer>
   </div>
   <!-- Optional JavaScript; choose one of the two! -->

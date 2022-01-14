@@ -1,5 +1,14 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
 #bodyfaiz {
   background-image: url(mainbackground.jpg);
+}
+
+#bodyfaiz header {
+  margin-top: 7rem;
 }
 
 #bodyfaiz>div>header>h1 {
@@ -13,3 +22,31 @@
   font-size: 3rem;
   text-shadow: 5px 5px 3px white;
 }
+
+#bodyfaiz form {
+  width: 18rem;
+}
+
+#bodyfaiz hr {
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-top-color: purple;
+  opacity: 1;
+  background-color: white;
+  width: 25rem;
+  margin: 5rem auto;
+}
+
+#bodyfaiz h2 {
+  margin-bottom: 3rem;
+}
+
+#bodyfaiz main {
+  box-shadow: 20px -20px 10px 0px black;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* #bodyfaiz footer {
+  box-shadow: 20px 0px 10px 0px black;
+} */
